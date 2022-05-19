@@ -1,0 +1,61 @@
+:root {
+    --main-txt-cl: #22343D;
+    --light-txt-cl:  #FFFFFF;
+    --low-txt-cl: #737373;
+    --logo-mainbtn-txt-cl: #173A56;
+    --bgc-btn: #02897A;
+    --border-btn-cl: #BCD0E5;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--main-txt-cl);
+}
+
+.list {
+    list-style: none;   
+}
+.nav .list {
+    text-decoration: none;
+}
+.nav-link {
+    font-size: 16px;
+    line-height: 1.75;
+    color: currentColor;
+    text-decoration: none;
+}
+
+.nav-link.current {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+.header-logo {
+    color: var(--logo-mainbtn-txt-cl);
+}
+
+.main-button {
+    color: var(--logo-mainbtn-txt-cl);
+    background-color: #fff;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.second-button {
+    color: var(--main-txt-cl);
+    background-color: var(--bgc-btn);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+}
+.hero-desc

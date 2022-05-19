@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- favicon start -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
-    <link rel="apple-touch-icon" sizes="76x76" href="./img/icon/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/icon/favicon/favicon-16x16.png" />
-    <link rel="manifest" href="./img/icon/favicon/site.webmanifest" />
-    <link rel="mask-icon" href="./img/icon/favicon/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- favicon end -->
+    <!-- downloads style start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+  <!-- downloads style end -->
+  <!-- self style start -->
+    <link rel="stylesheet"  href="./CSS/style.css">
+    <!-- self style end -->
   </head>
   <body>
     <!-- header section -->
-    <header>
-        <a href="./index.html" 
-          ><img src="./img/header/logo.png" alt="logo" width="40" height="36" />Product
-        </a>
-        <nav>
-          <ul>
-            <li>
-              <a href="./index.html">Products</a>
-            </li>
-            <li>
-              <a href="./our-clients.html">Customers</a>
-            </li>
-            <li>
-              <a href="./pracing.html">Pricing</a>
-            </li>
-            <li>
-              <a href="">Resources</a>
-            </li>
-          </ul>
-        </nav>
-        <ul>
-          <li><button type="button">Sign In</button></li>
-          <li><button type="button">Sign Up</button></li>
+    <header class="header">
+      <a class="link" class="header-logo link" href="./index.html"><img src="./img/header/logo.png" alt="logo"
+          width="40" height="36" />Product
+      </a>
+      <nav class="nav">
+        <ul class="list">
+          <li>
+            <a class="nav-link" href="./index.html">Products</a>
+          </li>
+          <li>
+            <a class="nav-link" href="./our-clients.html">Customers</a>
+          </li>
+          <li>
+            <a class="nav-link current" href="./pracing.html">Pracing</a>
+          </li>
+          <li>
+            <a class="nav-link" href="">Resources</a>
+          </li>
         </ul>
-        <button type="button">switch theme</button>
-      </header>
+      </nav>
+      <ul class="auth list">
+        <li class="auth-item">
+          <button class="main-button" type="button">Sign In</button>
+        </li>
+        <li class="auth-item">
+          <button class="second-button" type="button">Sign Up</button>
+        </li>
+      </ul>
+      <button class="theme-swithcher" type="button">switch theme</button>
+    </header>
     <!-- price table -->
     <section class="price-table">
       <h1>PRICING</h1>

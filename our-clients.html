@@ -2,65 +2,82 @@
 <html lang="en">
 
 <head>
+  <!-- favicon start -->
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Product</title>
-  <link rel="apple-touch-icon" sizes="76x76" href="./img/icon/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./img/icon/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./img/icon/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="./img/icon/favicon/site.webmanifest" />
-  <link rel="mask-icon" href="./img/icon/favicon/safari-pinned-tab.svg" color="#5bbad5" />
-  <meta name="msapplication-TileColor" content="#da532c" />
-  <meta name="theme-color" content="#ffffff" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- favicon end -->
+  <!-- downloads style start -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Montserrat:wght@600&family=Poppins:wght@400;500;600;700&family=Roboto:wght@500;900&display=swap"
+    rel="stylesheet">
+  <!-- downloads style end -->
+  <!-- self style start -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <!-- self style end -->
 </head>
 
 <body>
   <main>
     <!-- header section -->
-    <header>
-      <a href="./index.html"><img src="./img/header/logo.png" alt="logo" width="40" height="36" />Product
+    <header class="header">
+      <a class="link" class="header-logo link" href="./index.html"><img src="./img/header/logo.png" alt="logo"
+          width="40" height="36" />Product
       </a>
-      <nav>
-        <ul>
+      <nav class="nav">
+        <ul class="list">
           <li>
-            <a href="./index.html">Products</a>
+            <a class="nav-link" href="./index.html">Products</a>
           </li>
           <li>
-            <a href="./our-clients.html">Customers</a>
+            <a class="nav-link current" href="./our-clients.html">Customers</a>
           </li>
           <li>
-            <a href="./pracing.html">Pricing</a>
+            <a class="nav-link" href="./pracing.html">Pracing</a>
           </li>
           <li>
-            <a href="">Resources</a>
+            <a class="nav-link" href="">Resources</a>
           </li>
         </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sign In</button></li>
-        <li><button type="button">Sign Up</button></li>
+      <ul class="auth list">
+        <li class="auth-item">
+          <button type="button" class="main-button">Sign In</button>
+        </li>
+        <li class="auth-item">
+          <button type="button" class="second-button">Sign Up</button>
+        </li>
       </ul>
-      <button type="button">switch theme</button>
+      <button class="theme-swithcher" type="button">switch theme</button>
     </header>
     <!-- our clients -->
     <section class="clients">
       <h1>Our Clients</h1>
-      <ul>
+      <ul class="list">
         <li>
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a class="link" href="" target="_blank" rel="noopener noreferrer">
             <img src="./img/oc-clients/Airbnb Logo.svg" alt="company-logo" width="159" height="50" /></a>
         </li>
         <li>
-          <a href="" target="_blank" rel="noopener noreferrer"><img src="./img/oc-clients/Google Logo.svg"
+          <a class="link" href="" target="_blank" rel="noopener noreferrer"><img src="./img/oc-clients/Google Logo.svg"
               alt="company-logo" width="146" height="50" /></a>
         </li>
         <li>
-          <a href="" target="_blank" rel="noopener noreferrer"><img src="./img/oc-clients/Microsoft Logo.svg"
-              alt="company-logo" width="213" height="44" /></a>
+          <a class="link" href="" target="_blank" rel="noopener noreferrer"><img
+              src="./img/oc-clients/Microsoft Logo.svg" alt="company-logo" width="213" height="44" /></a>
         </li>
         <li>
-          <a href="" target="_blank" rel="noopener noreferrer"><img src="./img/oc-clients//FedEx Logo.svg"
+          <a class="link" href="" target="_blank" rel="noopener noreferrer"><img src="./img/oc-clients//FedEx Logo.svg"
               alt="company-logo" width="140" height="42" /></a>
         </li>
       </ul>
@@ -68,7 +85,7 @@
     <!-- custumers-features -->
     <section class="customers-deatures">
       <h2>Why Choose Product?</h2>
-      <ul>
+      <ul class="list">
         <li>
           <img src="./img/features/1.svg" alt="features icon" width="50" height="50" />
           <h3>Special Business</h3>
@@ -98,7 +115,7 @@
     <!-- how it works -->
     <section class="work-product">
       <h2>How Product Work?</h2>
-      <ul>
+      <ul class="list">
         <li>
           <div>
             <img src="./img/oc-productwork/mac1.png" alt="step 1" width="500" height="280" />
@@ -139,11 +156,11 @@
     <!-- business variants -->
     <section class="join-title">
       <h2>Join thousand of other who have already received offers</h2>
-      <ul>
+      <ul class="list">
         <li>
           <img src="./img/oc-bw/Activity.svg" alt="business" width="61" height="61" />
           <h3>Business</h3>
-          <ul>
+          <ul class="list">
             <li>
               <p>Cash Flow</p>
             </li>
@@ -153,13 +170,13 @@
             <li>
               <p>Receivables Finance</p>
             </li>
-            <a href="">Find the best business product</a>
+            <a class="link" href="">Find the best business product</a>
           </ul>
         </li>
         <li>
           <img src="./img/oc-bw/Chart.svg" alt="Enterprice" width="61" height="61" />
           <h3>Enterprise</h3>
-          <ul>
+          <ul class="list">
             <li>
               <p>Site Acquisition</p>
             </li>
@@ -169,7 +186,7 @@
             <li>
               <p>Development Financing</p>
             </li>
-            <a href="">Find the best business product</a>
+            <a class="link" href="">Find the best business product</a>
           </ul>
         </li>
       </ul>
@@ -183,23 +200,23 @@
   </main>
   <footer class="footer">
     <div>
-      <a href="./index.html">
+      <a class="link" href="./index.html">
         <img src="./img/header/logo.png" alt="logo" width="32" height="30" />
         Product
       </a>
-      <ul>
+      <ul class="list">
         <li>
-          <a href="" aria-label="instagramm">
+          <a class="link" href="" aria-label="instagramm">
             <img src="./img/footer/1.svg" alt="social-networks" width="40" height="40" />
           </a>
         </li>
         <li>
-          <a href="" aria-label="facebook">
+          <a class="link" href="" aria-label="facebook">
             <img src="./img/footer/2.svg" alt="social-networks" width="40" height="40" />
           </a>
         </li>
         <li>
-          <a href="" aria-label="twitter">
+          <a class="link" href="" aria-label="twitter">
             <img src="./img/footer/3.svg" alt="social-networks" width="40" height="40" />
           </a>
         </li>
@@ -207,7 +224,7 @@
     </div>
     <div>
       <h3>Resource</h3>
-      <ul>
+      <ul class="list">
         <li>About Us</li>
         <li>Blog</li>
         <li>Contact</li>
@@ -216,7 +233,7 @@
     </div>
     <div>
       <h3>Legal Stuff</h3>
-      <ul>
+      <ul class="list">
         <li>Disclaimer</li>
         <li>Financing</li>
         <li>Privacy Policy</li>
